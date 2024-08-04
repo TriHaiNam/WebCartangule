@@ -1,0 +1,17 @@
+.card-box{
+  display: flex;
+  width :  150px;
+  height: max-content;
+  background-color: pink;
+  align-items: center;
+  border-radius: 10px;
+  flex-direction: column;
+}
+.card-box > input{
+  width: 80%;
+  border: none;
+  padding: 10px;
+  margin: 10px;
+  background-color: black;
+  color: pink;
+}

@@ -1,0 +1,16 @@
+<div class="card-box">
+  <h1>{{ Name }}</h1>
+  <h2>{{ Pride }}</h2>
+  <h3>{{ id }}</h3>
+  <p>{{ InStock }}</p>
+  <p>{{ Mess }}</p>
+  <input type="number" [(ngModel)]="quantity" placeholder="Số lượng">
+  <button (click)="addToCard({
+    Name: this.Name,
+    Mess: this.Mess,
+    Pride: this.Pride,
+    id: this.id,
+    InStock: this.InStock,
+    quantity: this.quantity
+  })">Add To Cart</button>
+</div>
